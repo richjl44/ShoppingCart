@@ -6,11 +6,12 @@ git add .
 git commit -m "Notes"
 
 
- git remote add origin https://github.com/richjl44/AndroidStarter.git
+ git remote add origin https://github.com/richjl44/ShoppingCart.git
  git pull origin master
  git push -f origin master
 
-https://elearning.xamarin.com/forms/xam110/shared-projects/exercise/1-step1
 
 
- git remote add origin https://github.com/richjl44/Assets.git
+
+
+ (https://www.youtube.com/watch?annotation_id=annotation_850006155&feature=iv&src_vid=DMyjMpdL2Z0&v=WgpHzLXRaM4)
