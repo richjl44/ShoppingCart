@@ -60,6 +60,11 @@
     <Content Include="Admin\AddNewProducts.aspx" />
     <Content Include="Admin\Login.aspx" />
     <Content Include="Git_GitHub.txt" />
+    <Content Include="Images\default-space-logo-256.png" />
+    <Content Include="Images\ots_light_wx_66.png" />
+    <Content Include="Images\today-logo-site-nav.png" />
+    <Content Include="Images\twitter_logo_blue_48x48.png" />
+    <Content Include="Images\welcome.png" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -72,6 +77,13 @@
     <Compile Include="Admin\AddNewProducts.aspx.designer.cs">
       <DependentUpon>AddNewProducts.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -82,6 +94,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Admin.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -92,7 +105,6 @@
   <ItemGroup>
     <Folder Include="BusinessLayer\" />
     <Folder Include="DataLayer\" />
-    <Folder Include="Images\" />
     <Folder Include="ProductImages\" />
   </ItemGroup>
   <PropertyGroup>

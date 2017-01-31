@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="ShoppingCart.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table align="center" style="width: 900px">
+            <tr>
+                <td>
+                    <table style="border-bottom-style: ridge; border-width: medium; width: 900px; border-color: #9933FF">
+                        <tr>
+                            <td>
+                                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/welcome.png" />
+                            </td>
+                            <td>
+                                <asp:LinkButton ID="LinkButton1" runat="server">LinkButton</asp:LinkButton>
+                                <br />
+                                For those who love shopping!
+                            </td>
+                            <td>
+                                <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/default-space-logo-256.png" />
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="border-bottom-style: ridge; border-width: medium; width: 900px; border-color: #9933FF">
+                        <tr>
+                            <td>
+                                <a href="AddNewProducts.aspx">Category</a>&nbsp;
+                                 <a href="AddNewProducts.aspx">Products</a>&nbsp;
+                                 <a href="AddNewProducts.aspx">Customer Orders</a>
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="border-bottom-style: ridge; border-width: medium; width: 900px; border-color: #9933FF">
+                        <tr>
+                            <td>
+                                <asp:Panel ID="pnlCategories" runat="server">
+                                    <asp:ContentPlaceHolder ID="ConentPlaceholder" runat="server"></asp:ContentPlaceHolder>
+                                </asp:Panel>
+
+                            </td>
+                        </tr>
+                    </table>
+
+
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="border-bottom-style: ridge; border-width: medium; width: 900px; border-color: #9933FF">
+                        <tr>
+                            <td>&nbsp;&copy layboy</td>
+                        </tr>
+
+                    </table>
+                </td>
+
+            </tr>
+
+
+        </table>
+    </form>
+</body>
+</html>
